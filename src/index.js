@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./components/todos/TodoListAppView";
-import TodoListAppView from "./components/todos/TodoListAppView";
+import TodoListApp from "./components/todoList/TodoListApp";
 
 function App(props) {
-  return <TodoListAppView />;
+  return <TodoListApp />;
 }
 
 const rootElement = document.getElementById("root");
