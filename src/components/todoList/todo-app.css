@@ -1,3 +1,35 @@
 .completed {
   text-decoration: line-through;
 }
+
+#control-btns {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-list-app {
+  width: auto;
+}
+
+#todo-list-app h1 {
+  margin-bottom: 50px;
+}
+
+#todo-list {
+  height: 60vh;
+  margin: 0 50px 0 0;
+  padding: 50px;
+  float: left;
+  overflow: auto;
+}
+
+#form-add-todo {
+  padding: 50px;
+  float: left;
+}

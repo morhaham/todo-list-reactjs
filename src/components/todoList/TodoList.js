@@ -12,11 +12,17 @@ function TodoList(props) {
         completed={todo.completed}
         deleteTodo={props.deleteTodo}
         markTodo={props.markTodo}
+        checkbox={todo.checkbox}
+        toggleCheckbox={props.toggleCheckbox}
       />
     );
   });
 
-  return <ul>{todos}</ul>;
+  return (
+    <ul className="list-group d-inline-block" id="todo-list">
+      {todos}
+    </ul>
+  );
 }
 
 export default TodoList;

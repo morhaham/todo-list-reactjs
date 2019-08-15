@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import TodoListApp from "./components/todoList/TodoListApp";
+import "./components/todoList/todo-app.css";
 
 function App(props) {
   return <TodoListApp />;
